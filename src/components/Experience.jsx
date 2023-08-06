@@ -3,10 +3,10 @@ import html from '../assets/html.png';
 import css from '../assets/css.png';
 import javascript from '../assets/javascript.png';
 import react from '../assets/react.png';
-import nextjs from '../assets/nextjs.png';
-import graphql from '../assets/graphql.png';
+import jQuery from '../assets/jQuery.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
+import bootstrap from '../assets/bootstrap.png';
 
 const Experience = () => {
 
@@ -33,25 +33,25 @@ const Experience = () => {
             id: 4,
             src: react,
             title: "React",
-            style: "shadow-blue-600"
+            style: "shadow-sky-400"
         },
         {
             id: 5,
+            src: bootstrap,
+            title: "Bootstrap",
+            style: "shadow-purple-500"
+        },
+        {
+            id: 6,
             src: tailwind,
             title: "Tailwind",
             style: "shadow-sky-400"
         },
         {
-            id: 6,
-            src: nextjs,
-            title: "Next JS",
-            style: "shadow-white"
-        },
-        {
             id: 7,
-            src: graphql,
-            title: "GraphQL",
-            style: "shadow-pink-400"
+            src: jQuery,
+            title: "jQuery",
+            style: "shadow-sky-500"
         },
         {
             id: 8,
@@ -63,7 +63,7 @@ const Experience = () => {
 
 
   return (
-    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen pt-10'>
+    <div name="experience" className='bg-gradient-to-b from-gray-800 to-black w-full lg:h-screen pt-16 px-4'>
       
         <div className='max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white'>
             <div>
