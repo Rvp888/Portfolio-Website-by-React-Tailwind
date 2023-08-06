@@ -11,7 +11,21 @@ import tailwind from '../assets/tailwind.png';
 const Experience = () => {
   return (
     <div>
-      Experience
+      
+        <div>
+            <div>
+                <p>Experience</p>
+                <p>These are the technologies I've worked with</p>
+            </div>
+
+            <div>
+                <div>
+                    <img src="" alt="" />
+                    <p></p>
+                </div>
+            </div>
+        </div>
+
     </div>
   )
 }
