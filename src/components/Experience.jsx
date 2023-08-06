@@ -6,6 +6,7 @@ import react from '../assets/react.png';
 import jQuery from '../assets/jQuery.png';
 import github from '../assets/github.png';
 import tailwind from '../assets/tailwind.png';
+import sass from '../assets/sass.png';
 import bootstrap from '../assets/bootstrap.png';
 
 const Experience = () => {
@@ -49,12 +50,18 @@ const Experience = () => {
         },
         {
             id: 7,
+            src: sass,
+            title: "Sass",
+            style: "shadow-pink-500"
+        },
+        {
+            id: 8,
             src: jQuery,
             title: "jQuery",
             style: "shadow-sky-500"
         },
         {
-            id: 8,
+            id: 9,
             src: github,
             title: "GitHub",
             style: "shadow-gray-400"
