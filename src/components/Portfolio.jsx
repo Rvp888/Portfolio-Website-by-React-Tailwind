@@ -1,43 +1,64 @@
 import React from "react";
-import arrayDestruct from "../assets/arrayDestruct.jpg";
-import installNode from "../assets/installNode.jpg";
-import navbar from "../assets/navbar.jpg";
-import reactWeather from "../assets/reactWeather.jpg";
+import nagakhel from "../assets/naga-khel.png";
+import notesApp from "../assets/notes-app.png";
+import stopWatch from "../assets/Stop Watch App.png";
+import eCart from "../assets/E-Cart App.png";
+import weatherApp from "../assets/weather-app.png";
 import reactParallax from "../assets/reactParallax.jpg";
-import reactSmooth from "../assets/reactSmooth.jpg";
+import todoApp from "../assets/Todo App.png";
+import drawingApp from "../assets/Drawing App.png";
+import budgetApp from "../assets/Budget App.png";
+import ticTacToe from "../assets/Tic-Tac-Toe game.png";
+import calculator from "../assets/Calculator.png";
 
 const Portfolio = () => {
   const portfolios = [
     {
       id: 1,
-      src: arrayDestruct,
+      src: nagakhel,
     },
     {
       id: 2,
-      src: reactParallax,
+      src: eCart,
     },
     {
       id: 3,
-      src: navbar,
+      src: drawingApp,
     },
     {
       id: 4,
-      src: reactSmooth,
+      src: notesApp,
     },
     {
       id: 5,
-      src: installNode,
+      src: weatherApp,
     },
     {
       id: 6,
-      src: reactWeather,
+      src: stopWatch,
+    },
+    {
+      id: 7,
+      src: todoApp,
+    },
+    {
+      id: 8,
+      src: budgetApp,
+    },
+    {
+      id: 9,
+      src: ticTacToe,
+    },
+    {
+      id: 10,
+      src: calculator,
     },
   ];
 
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white md:h-screen pt-16 px-4"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white pt-16 px-4"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
@@ -53,7 +74,7 @@ const Portfolio = () => {
               <img
                 src={src}
                 alt=""
-                className="rounded-md duration-200 hover:scale-105"
+                className="w-full h-3/4 rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
                 <button className="w-1/2 px-6  m-4 duration-200 hover:scale-105">
