@@ -47,7 +47,7 @@ const SocialLinks = () => {
   ];
 
   return (
-    <div className="w-full flex justify-center lg:flex-col bottom-0 lg:left-0 lg:h-screen fixed">
+    <div className="w-full flex justify-center lg:flex-col bottom-0 lg:left-0 lg:w-auto lg:h-screen fixed">
       <ul className="flex lg:flex-col">
         {links.map(({id, child, href, style, download}) => (
           <li key={id} className={`flex items-center w-20 h-20 lg:w-40 lg:h-14 py-2 px-6 lg:p-4 mb-[-30px] lg:mb-0 lg:ml-[-100px] lg:hover:ml-[-10px] duration-300 lg:hover:rounded-md bg-gray-700 bg-opacity-70 lg:bg-gray-500 ${style}`}>
@@ -65,6 +65,33 @@ const SocialLinks = () => {
       </ul>
     </div>
   );
+
+  // return (
+  //   <div className="hidden lg:flex flex-col top-[35%] left-0 fixed">
+  //     <ul>
+  //       {links.map(({ id, child, href, style, download }) => (
+  //         <li
+  //           key={id}
+  //           className={
+  //             "flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] hover:rounded-md duration-300 bg-gray-500" +
+  //             " " +
+  //             style
+  //           }
+  //         >
+  //           <a
+  //             href={href}
+  //             className="flex justify-between items-center w-full text-white"
+  //             download={download}
+  //             target="_blank"
+  //             rel="noreferrer"
+  //           >
+  //             {child}
+  //           </a>
+  //         </li>
+  //       ))}
+  //     </ul>
+  //   </div>
+  // );
 };
 
 export default SocialLinks;
