@@ -16,42 +16,62 @@ const Portfolio = () => {
     {
       id: 1,
       src: nagakhel,
+      demo: "https://naga-khel-u6a7.vercel.app/",
+      code: "https://github.com/Rvp888/Naga-Khel"
     },
     {
       id: 2,
       src: eCart,
+      demo: "https://ecom-site-six.vercel.app/",
+      code: "https://github.com/Rvp888/Ecom-site"
     },
     {
       id: 3,
       src: drawingApp,
+      demo: "https://drawing-app-mu.vercel.app/",
+      code: "https://github.com/Rvp888/Drawing-App"
     },
     {
       id: 4,
       src: notesApp,
+      demo: "https://react-notes-app-azure.vercel.app/",
+      code: "https://github.com/Rvp888/React-Notes-App"
     },
     {
       id: 5,
       src: weatherApp,
+      demo: "https://react-weather-app-2-psi.vercel.app/",
+      code: "https://github.com/Rvp888/React-Weather-App-2"
     },
     {
       id: 6,
       src: stopWatch,
+      demo: "https://stop-watch-ruddy.vercel.app/",
+      code: "https://github.com/Rvp888/Stop-Watch"
     },
     {
       id: 7,
       src: todoApp,
+      demo: "https://react-basic-todo-app.vercel.app/",
+      code: "https://github.com/Rvp888/React-Basic-Todo-App"
     },
     {
       id: 8,
       src: budgetApp,
+      demo: "https://app-landing-page-msrz.vercel.app/",
+      code: "https://github.com/Rvp888/Budget-App"
     },
     {
       id: 9,
       src: ticTacToe,
+      demo: "https://tic-tac-toe-by-js.vercel.app/",
+      code: "https://github.com/Rvp888/Tic-Tac-Toe-by-JS"
     },
     {
       id: 10,
       src: calculator,
+      demo: "https://calculator-rvp888.vercel.app/",
+      code: "https://github.com/Rvp888/Calculator"
     },
   ];
 
@@ -69,7 +89,7 @@ const Portfolio = () => {
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-3 gap-8 px-12 sm:px-0">
-          {portfolios.map(({ id, src }) => (
+          {portfolios.map(({ id, src, demo, code }) => (
             <div key={id} className="shadow-md shadow-gray-600 rounded-lg">
               <img
                 src={src}
@@ -77,12 +97,12 @@ const Portfolio = () => {
                 className="w-full h-3/4 rounded-md duration-200 hover:scale-105"
               />
               <div className="flex items-center justify-center">
-                <button className="w-1/2 px-6  m-4 duration-200 hover:scale-105">
+                <a href={demo} target="_blank" rel="noreferrer" className="w-1/2 px-6  m-4 duration-200 hover:scale-105">
                   Demo
-                </button>
-                <button className="w-1/2 px-6  m-4 duration-200 hover:scale-105">
+                </a>
+                <a href={code} target="_blank" rel="noreferrer" className="w-1/2 px-6  m-4 duration-200 hover:scale-105">
                   Code
-                </button>
+                </a>
               </div>
             </div>
           ))}
