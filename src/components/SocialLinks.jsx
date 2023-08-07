@@ -13,7 +13,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "https://www.linkedin.com/in/rohan-p-0b55921a2/",
-      style: "rounded-tr-md",
+      style: "rounded-tl-md lg:rounded-tr-md",
     },
     {
       id: 2,
@@ -41,19 +41,19 @@ const SocialLinks = () => {
         </>
       ),
       href: "/Rohan_Resume_Web-Dev.pdf",
-      style: "rounded-br-md",
+      style: "rounded-tr-md lg:rounded-tr-none lg:rounded-br-md",
       download: true,
     },
   ];
 
   return (
-    <div className="flex lg:flex-col top-[35%] left-0 fixed">
-      <ul>
+    <div className="flex flex-row lg:flex-col bottom-0 left-[15%] lg:top-[35%] lg:left-0 fixed">
+      <ul className="flex flex-row lg:flex-col">
         {links.map(({id, child, href, style, download}) => (
-          <li key={id} className={`flex justify-between items-center w-40 h-14 px-4 ml-[-100px] hover:ml-[-10px] duration-300 hover:rounded-md bg-gray-500 ${style}`}>
+          <li key={id} className={`flex items-center w-20 lg:w-40 lg:h-14 p-2 lg:p-4 lg:ml-[-100px] lg:hover:ml-[-10px] duration-300 lg:hover:rounded-md bg-gray-500 ${style}`}>
             <a
               href={href}
-              className="flex justify-between items-center w-full text-white"
+              className="flex flex-col-reverse lg:flex-row justify-between items-center w-full text-white"
               download={download}
               target="_blank"
               rel="noreferrer"

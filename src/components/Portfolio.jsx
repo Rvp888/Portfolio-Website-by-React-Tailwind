@@ -4,7 +4,6 @@ import notesApp from "../assets/notes-app.png";
 import stopWatch from "../assets/Stop Watch App.png";
 import eCart from "../assets/E-Cart App.png";
 import weatherApp from "../assets/weather-app.png";
-import reactParallax from "../assets/reactParallax.jpg";
 import todoApp from "../assets/Todo App.png";
 import drawingApp from "../assets/Drawing App.png";
 import budgetApp from "../assets/Budget App.png";
