@@ -29,7 +29,7 @@ const SocialLinks = () => {
       id: 3,
       child: (
         <>
-          Mail <TbBrandLeetcode size={30} />
+          Leetcode <TbBrandLeetcode size={30} />
         </>
       ),
       href: "https://leetcode.com/RohanPalankar/",
