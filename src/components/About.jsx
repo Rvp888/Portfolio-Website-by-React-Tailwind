@@ -23,10 +23,11 @@ const About = () => {
         </p>
         <br />
         <p className="text-xl">
-          I am a highly motivated and results-oriented individual, and I am
-          confident that I can exceed your expectations in this role. I am
-          passionate about web development and I am always looking for new ways
-          to improve my skills and knowledge.
+          I am a self-motivated professional with a strong attention to detail,
+          and I am capable of meeting deadlines while delivering high quality
+          results. I am passionate about web development and always looking for
+          new ways to improve my skills and knowledge. I am currently looking
+          for an entry level Web Developer role.
         </p>
       </div>
     </div>
