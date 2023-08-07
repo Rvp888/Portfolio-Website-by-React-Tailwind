@@ -21,7 +21,7 @@ const About = () => {
           responsive and user-friendly webpages that are both visually appealing
           and easy to use. In addition to my technical skills, I am also an
           excellent problem-solver and am familiar with best practices for web
-          development..
+          development.
         </p>
         <br />
         <p className="text-xl">
@@ -29,7 +29,7 @@ const About = () => {
           and I am capable of meeting deadlines while delivering high quality
           results. I am passionate about web development and always looking for
           new ways to improve my skills and knowledge. I am currently looking
-          for an entry level Web Developer role.
+          for an entry level Front-end Developer role.
         </p>
       </div>
     </div>
