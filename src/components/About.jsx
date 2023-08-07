@@ -14,20 +14,19 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10 ">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Nostrum
-          suscipit a velit, eligendi vel unde eius. Id eius sequi voluptatum,
-          itaque necessitatibus, harum minus cupiditate aspernatur odio atque
-          error. Qui, iusto. Numquam, cumque eos provident, quia obcaecati
-          labore earum dolore ab harum consequatur, praesentium necessitatibus.
-          Eos reiciendis distinctio perspiciatis exercitationem!
+          I have been coding from last one year and have a good understanding of
+          the latest web development technologies and trends. I am well-versed
+          in using HTML, CSS, and JavaScript. I am also proficient in React.Js.
+          I have a good understanding of how to create responsive and
+          user-friendly webpages that are both visually appealing and easy to
+          use.
         </p>
         <br />
         <p className="text-xl">
-          I have been coding from last one year and have developed a strong
-          skillset in HTML, CSS, and JavaScript. I am also proficient in React.Js. 
-          I have a good understanding of how to create responsive
-          and user-friendly webpages that are both visually appealing and easy
-          to use.
+          I am a highly motivated and results-oriented individual, and I am
+          confident that I can exceed your expectations in this role. I am
+          passionate about web development and I am always looking for new ways
+          to improve my skills and knowledge.
         </p>
       </div>
     </div>
