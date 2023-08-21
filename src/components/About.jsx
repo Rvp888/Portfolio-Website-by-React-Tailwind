@@ -17,7 +17,7 @@ const About = () => {
           I have been coding from last one year and have a good understanding of
           the latest web development technologies and trends. I am well-versed
           in using HTML, CSS and JavaScript and using frameworks like React.Js,
-          Bootstrap and jQuery. I have a good understanding of how to create
+          jQuery and Tailwind CSS. I have a good understanding of how to create
           responsive and user-friendly webpages that are both visually appealing
           and easy to use. In addition to my technical skills, I am also an
           excellent problem-solver and am familiar with best practices for web
