@@ -42,17 +42,7 @@ const SocialLinks = () => {
         </>
       ),
       href: "mailto:rohanpalankar8@gmail.com",
-    },
-    {
-      id: 5,
-      child: (
-        <>
-          Resume <BsFillPersonLinesFill size={30} />
-        </>
-      ),
-      href: "/Rohan_Palankar_Resume.pdf",
       style: "rounded-tr-md lg:rounded-tr-none lg:rounded-br-md",
-      download: true,
     },
   ];
 
