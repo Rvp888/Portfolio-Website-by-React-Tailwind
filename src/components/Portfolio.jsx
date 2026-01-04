@@ -1,10 +1,8 @@
 import React from "react";
 import nagakhel from "../assets/naga-khel.png";
 import notesApp from "../assets/notes-app.png";
-import stopWatch from "../assets/Stop Watch App.png";
 import eCart from "../assets/E-Cart App.png";
 import weatherApp from "../assets/weather-app.png";
-import todoApp from "../assets/Todo App.png";
 import drawingApp from "../assets/Drawing App.png";
 import budgetApp from "../assets/Budget App.png";
 import ticTacToe from "../assets/Tic-Tac-Toe game.png";
@@ -44,30 +42,18 @@ const Portfolio = () => {
     // },
     // {
     //   id: 6,
-    //   src: stopWatch,
-    //   demo: "https://stop-watch-ruddy.vercel.app/",
-    //   code: "https://github.com/Rvp888/Stop-Watch"
-    // },
-    // {
-    //   id: 7,
-    //   src: todoApp,
-    //   demo: "https://react-basic-todo-app.vercel.app/",
-    //   code: "https://github.com/Rvp888/React-Basic-Todo-App"
-    // },
-    // {
-    //   id: 8,
     //   src: budgetApp,
     //   demo: "https://app-landing-page-msrz.vercel.app/",
     //   code: "https://github.com/Rvp888/Budget-App",
     // },
     {
-      id: 9,
+      id: 7,
       src: ticTacToe,
       demo: "https://tic-tac-toe-by-js.vercel.app/",
       code: "https://github.com/Rvp888/Tic-Tac-Toe-by-JS",
     },
     // {
-    //   id: 10,
+    //   id: 8,
     //   src: calculator,
     //   demo: "https://calculator-rvp888.vercel.app/",
     //   code: "https://github.com/Rvp888/Calculator"

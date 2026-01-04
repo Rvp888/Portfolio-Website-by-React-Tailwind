@@ -1,9 +1,10 @@
 import React from "react";
-import Profile from "../assets/profilephoto.jpg";
-import ProfilePic from "../assets/profilepicture.png";
-import HeroImg from "../assets/heroImage.jpg";
-import HeroImg2 from "../assets/heroImage-2.jpg";
-import HeroImg3 from "../assets/heroImage-3.JPG";
+// import Profile from "../assets/profile-new.png";
+// import Profile from "../assets/profile-new-2.png";
+// import Profile from "../assets/profile-new-3.png";
+// import Profile from "../assets/profile.png";
+// import Profile from "../assets/profile-dev.png";
+import Profile from "../assets/profilepic.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link } from "react-scroll";
 
@@ -16,35 +17,48 @@ const Home = () => {
       <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl md:text-6xl font-bold text-white">
-            I'm a Front End Developer
+            I’m a{" "}
+            <span className="bg-gradient-to-r from-cyan-400 to-blue-500 bg-clip-text text-transparent">
+              Front End
+            </span>{" "}
+            Developer
           </h2>
-          <p className="text-gray-500 py-4 max-w-lg">
+          <p className="text-gray-400 text-base sm:text-lg mt-5 leading-relaxed max-w-lg">
             I design and develop clean, performant interfaces using React and
             modern web technologies. With real-world experience on SaaS
             products, I focus on turning complex requirements into intuitive,
             production-ready UIs.
           </p>
 
-          <div>
+          <div className="mt-8">
             <Link
               to="portfolio"
               smooth
               duration={500}
-              className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-cyan-500 to-blue-500 cursor-pointer"
+              className="group inline-flex items-center gap-2 px-7 py-3 rounded-md 
+              bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium
+              hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/30
+              transition-all duration-300 cursor-pointer"
             >
               View My Work
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              <span className="group-hover:translate-x-1 group-hover:rotate-90 transition-transform duration-300">
+                <MdOutlineKeyboardArrowRight size={22} />
               </span>
             </Link>
           </div>
         </div>
 
-        <div>
+        {/* RIGHT IMAGE */}
+        <div className="relative">
+          {/* Gradient Glow */}
+          <div className="absolute inset-0 rounded-xl bg-gradient-to-tr from-cyan-500 to-blue-600 blur-2xl opacity-30"></div>
+
           <img
-            className="w-56 h-72 md:w-72 mx-auto rounded-lg"
             src={Profile}
-            alt="my profile"
+            alt="profile"
+            className="relative w-60 h-72 md:w-72 md:h-80 object-cover rounded-xl
+            border border-gray-700 shadow-xl
+            hover:scale-105 transition-transform duration-300"
           />
         </div>
       </div>

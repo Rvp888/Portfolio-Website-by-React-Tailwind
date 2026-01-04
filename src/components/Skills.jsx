@@ -3,11 +3,19 @@ import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
 import react from "../assets/react.png";
+import redux from "../assets/redux.png";
+import reactQuery from "../assets/react-query.png";
 import jQuery from "../assets/jQuery.png";
 import github from "../assets/github.png";
 import tailwind from "../assets/tailwind.png";
-import sass from "../assets/sass.png";
 import bootstrap from "../assets/bootstrap.png";
+import sass from "../assets/sass.png";
+import nextJS from "../assets/nextjs.png";
+import nodeJS from "../assets/node.png";
+// import expressJS from "../assets/exjs.png";
+import expressJS from "../assets/ExpressJS-Dark.svg";
+import mongodb from "../assets/mongodb.svg";
+// import mySQL from "../assets/mySql-1.svg";
 
 const Skills = () => {
   const techs = [
@@ -21,13 +29,13 @@ const Skills = () => {
       id: 2,
       src: css,
       title: "CSS",
-      style: "shadow-blue-500",
+      style: "shadow-blue-400",
     },
     {
       id: 3,
       src: javascript,
       title: "JavaScript",
-      style: "shadow-yellow-500",
+      style: "shadow-yellow-400",
     },
     {
       id: 4,
@@ -37,22 +45,57 @@ const Skills = () => {
     },
     {
       id: 5,
-      src: bootstrap,
-      title: "Bootstrap",
-      style: "shadow-violet-500",
+      src: redux,
+      title: "Redux",
+      style: "shadow-violet-600",
     },
     {
       id: 6,
+      src: reactQuery,
+      title: "React Query",
+      style: "shadow-red-500",
+    },
+    {
+      id: 7,
       src: tailwind,
       title: "Tailwind",
       style: "shadow-sky-400",
     },
-
+    {
+      id: 8,
+      src: bootstrap,
+      title: "Bootstrap",
+      style: "shadow-indigo-500",
+    },
+    {
+      id: 9,
+      src: nextJS,
+      title: "Next JS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 10,
+      src: nodeJS,
+      title: "Node JS",
+      style: "shadow-lime-400",
+    },
+    {
+      id: 11,
+      src: expressJS,
+      title: "Express JS",
+      style: "shadow-gray-400",
+    },
+    {
+      id: 12,
+      src: mongodb,
+      title: "MongoDB",
+      style: "shadow-lime-600",
+    },
     // {
-    //   id: 7,
-    //   src: github,
-    //   title: "GitHub",
-    //   style: "shadow-gray-400",
+    //   id: 13,
+    //   src: mySQL,
+    //   title: "MySQL",
+    //   style: "shadow-blue-400",
     // },
   ];
 

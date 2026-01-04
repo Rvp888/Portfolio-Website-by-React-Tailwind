@@ -18,8 +18,6 @@ const Experience = () => {
         </div>
 
         {/* Experience Card */}
-        {/* <div className="relative border-l-2 border-gray-600 pl-6">
-          <div className="absolute -left-[9px] top-2 w-4 h-4 rounded-full bg-cyan-400"></div> */}
 
         <div className="bg-gray-900 rounded-lg p-6 shadow-md shadow-gray-600">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between">
@@ -28,7 +26,7 @@ const Experience = () => {
             </h3>
 
             {/* Duration Chip */}
-            <span className="mt-2 sm:mt-0 px-3 py-1 text-xs sm:text-sm rounded-full border border-cyan-400 text-cyan-400">
+            <span className="mt-2 sm:mt-0 max-w-fit px-3 py-1 text-xs sm:text-sm rounded-full border border-cyan-400 text-cyan-400">
               Sept 2023 – Jul 2025
             </span>
           </div>
@@ -80,7 +78,6 @@ const Experience = () => {
             </li>
           </ul>
         </div>
-        {/* </div> */}
       </div>
     </div>
   );
