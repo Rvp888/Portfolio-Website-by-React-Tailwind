@@ -7,6 +7,7 @@ import drawingApp from "../assets/Drawing App.png";
 import budgetApp from "../assets/Budget App.png";
 import ticTacToe from "../assets/Tic-Tac-Toe game.png";
 import calculator from "../assets/Calculator.png";
+import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Portfolio = () => {
   // const portfolios = [
@@ -67,7 +68,7 @@ const Portfolio = () => {
       image: nagakhel,
       description:
         "An interactive gaming platform with modern UI and responsive design.",
-      tech: ["React", "Tailwind CSS", "Vercel"],
+      tech: ["HTML", "CSS", "JavaScript"],
       live: "https://naga-khel-u6a7.vercel.app/",
       github: "https://github.com/Rvp888/Naga-Khel",
     },
@@ -77,7 +78,7 @@ const Portfolio = () => {
       image: eCart,
       description:
         "A fully responsive e-commerce frontend with product listing and cart flow.",
-      tech: ["React", "CSS", "JavaScript"],
+      tech: ["React", "CSS", "Bootstrap", "Firebase"],
       live: "https://ecom-site-six.vercel.app/",
       github: "https://github.com/Rvp888/Ecom-site",
     },
@@ -96,7 +97,7 @@ const Portfolio = () => {
   return (
     <div
       name="portfolio"
-      className="bg-gradient-to-b from-black to-gray-800 w-full text-white px-4 min-h-[85vh] flex items-center"
+      className="bg-gradient-to-b from-black to-gray-800 w-full text-white px-4 lg:px-16 min-h-[85vh] flex items-center"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         {/* Heading */}
@@ -141,45 +142,44 @@ const Portfolio = () => {
                   </div>
 
                   {/* Buttons */}
-                  <div className="mt-auto flex gap-4">
+                  <div className="mt-auto flex gap-2">
+                    {/* Live Demo */}
                     <a
                       href={live}
                       target="_blank"
                       rel="noreferrer"
-                      className="flex-1 text-center py-2 rounded-lg bg-blue-600 hover:bg-blue-700 transition"
+                      className="
+                        flex-1 flex items-center justify-center gap-2
+                        py-1.5 text-sm
+                        rounded-md
+                        border border-blue-500 text-blue-400
+                        hover:bg-blue-500 hover:text-white
+                        transition-all duration-200
+                      "
                     >
-                      Live Demo
+                      <FaExternalLinkAlt size={12} />
+                      <span>Live</span>
                     </a>
 
+                    {/* GitHub */}
                     <a
                       href={github}
                       target="_blank"
                       rel="noreferrer"
-                      className="flex-1 text-center py-2 rounded-lg border border-gray-500 hover:bg-gray-700 transition"
+                      className="
+                        flex-1 flex items-center justify-center gap-2
+                        py-1.5 text-sm
+                        rounded-md
+                        border border-gray-600 text-gray-300
+                        hover:bg-gray-700 hover:text-white
+                        transition-all duration-200
+                      "
                     >
-                      GitHub
+                      <FaGithub size={14} />
+                      <span>Code</span>
                     </a>
                   </div>
                 </div>
-
-                {/* <div className="flex items-center justify-center">
-                  <a
-                    href={live}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-1/2 px-6  m-4 duration-200 hover:scale-105"
-                  >
-                    Demo
-                  </a>
-                  <a
-                    href={github}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="w-1/2 px-6  m-4 duration-200 hover:scale-105"
-                  >
-                    Code
-                  </a>
-                </div> */}
               </div>
             )
           )}

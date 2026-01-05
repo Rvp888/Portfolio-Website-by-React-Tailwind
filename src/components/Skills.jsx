@@ -102,7 +102,7 @@ const Skills = () => {
   return (
     <div
       name="skills"
-      className="bg-gradient-to-b from-gray-800 to-black w-full px-4 min-h-[85vh] flex items-center"
+      className="bg-gradient-to-b from-gray-800 to-black w-full px-4 lg:px-16 min-h-[90vh] flex items-center"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full text-white">
         <div>
@@ -118,7 +118,7 @@ const Skills = () => {
               key={id}
               className={`shadow-md hover:scale-105 duration-500 py-2 rounded-lg ${style}`}
             >
-              <img src={src} alt="" className="w-20 mx-auto" />
+              <img src={src} alt="" className="w-16 mx-auto" />
               <p className="mt-4">{title}</p>
             </div>
           ))}

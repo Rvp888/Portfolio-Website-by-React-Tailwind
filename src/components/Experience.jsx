@@ -6,9 +6,9 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="w-full bg-gradient-to-b from-black to-gray-800 text-white px-4 min-h-[90vh] flex items-center"
+      className="w-full bg-gradient-to-b from-black to-gray-800 text-white px-4 lg:px-16 min-h-[90vh] flex items-center"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center w-full h-full">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Section Header */}
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">

@@ -12,9 +12,9 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 p-4 flex items-center"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4 lg:px-16 flex items-center"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full px-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full p-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl md:text-6xl font-bold text-white">
             I’m a{" "}

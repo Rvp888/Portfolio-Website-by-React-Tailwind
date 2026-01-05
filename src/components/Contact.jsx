@@ -58,11 +58,11 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black px-4 text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black px-4 lg:px-16 text-white"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center h-full">
+      <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full">
         {/* Header */}
-        <div className="pb-10 text-center md:text-left">
+        <div className="pb-10 md:text-left">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
             Contact
           </p>
