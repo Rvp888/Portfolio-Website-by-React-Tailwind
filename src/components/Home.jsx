@@ -48,12 +48,13 @@ const Home = () => {
             </Link>
           </div> */}
 
-          <div className="flex flex-col sm:flex-row gap-4 mt-6">
+          <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto">
             {/* View Work */}
             <Link to="portfolio" smooth duration={500}>
               <button
-                className="
-                  group flex items-center justify-center
+                className="group
+                  w-full sm:w-auto
+                  flex items-center justify-center
                   px-6 py-3
                   text-white
                   bg-gradient-to-r from-cyan-500 to-blue-500
@@ -76,12 +77,15 @@ const Home = () => {
               target="_blank"
               rel="noreferrer"
               className="
+                group
+                w-full sm:w-auto
                 flex items-center justify-center gap-2
                 px-6 py-3
                 border border-cyan-400
                 text-cyan-400
                 rounded-md
                 hover:bg-cyan-400 hover:text-black
+                hover:scale-105
                 transition-all duration-300
               "
             >
