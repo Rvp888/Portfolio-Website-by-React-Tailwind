@@ -1,9 +1,14 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-scroll";
 
 const NavBar = () => {
   const [nav, setNav] = useState(false);
+
+  useEffect(() => {
+    document.body.style.overflow = nav ? "hidden" : "auto";
+  }, [nav]);
+
   const links = [
     {
       id: 1,
@@ -32,10 +37,11 @@ const NavBar = () => {
   ];
 
   return (
-    <div className="flex justify-between items-center w-full px-4 h-20 bg-black text-white fixed z-10">
-      <div className="ml-2">
-        <h1 className="text-5xl font-signature">Rohan</h1>
-      </div>
+    <div
+      className="flex justify-between items-center w-full px-4 h-20 bg-black/80 backdrop-blur-md
+    text-white fixed z-10 border-b border-white/10"
+    >
+      <h1 className="ml-2 pt-3 text-4xl font-signature">Rohan</h1>
 
       <ul className="hidden md:flex">
         {links.map(({ id, link }) => (
@@ -49,8 +55,8 @@ const NavBar = () => {
               duration={500}
               spy={true}
               offset={-80}
-              activeClass="text-cyan-400 border-b-2 border-cyan-400"
               className="text-gray-200"
+              activeClass="text-gray-100-i font-bold border-b-2 border-cyan-400"
             >
               {link}
             </Link>

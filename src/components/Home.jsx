@@ -6,6 +6,7 @@ import React from "react";
 // import Profile from "../assets/profile-dev.png";
 import Profile from "../assets/profilepic.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-scroll";
 
 const Home = () => {
@@ -14,7 +15,7 @@ const Home = () => {
       name="home"
       className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4 lg:px-16 flex items-center"
     >
-      <div className="max-w-screen-lg mx-auto flex flex-col justify-center items-center h-full p-4 md:flex-row">
+      <div className="max-w-screen-lg mx-auto flex flex-col gap-6 justify-center items-center h-full p-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
           <h2 className="text-4xl md:text-6xl font-bold text-white">
             I’m a{" "}
@@ -30,7 +31,7 @@ const Home = () => {
             production-ready UIs.
           </p>
 
-          <div className="mt-8">
+          {/* <div className="mt-8">
             <Link
               to="portfolio"
               smooth
@@ -45,6 +46,47 @@ const Home = () => {
                 <MdOutlineKeyboardArrowRight size={22} />
               </span>
             </Link>
+          </div> */}
+
+          <div className="flex flex-col sm:flex-row gap-4 mt-6">
+            {/* View Work */}
+            <Link to="portfolio" smooth duration={500}>
+              <button
+                className="
+                  group flex items-center justify-center
+                  px-6 py-3
+                  text-white
+                  bg-gradient-to-r from-cyan-500 to-blue-500
+                  rounded-md
+                  hover:scale-105
+                  transition-all duration-300
+                "
+              >
+                View My Work
+                <span className="group-hover:translate-x-1 group-hover:rotate-90 transition-transform duration-300">
+                  <MdOutlineKeyboardArrowRight size={22} />
+                </span>
+              </button>
+            </Link>
+
+            {/* Download Resume */}
+            <a
+              href="/Rohan_Palankar_Resume.pdf"
+              download
+              target="_blank"
+              rel="noreferrer"
+              className="
+                flex items-center justify-center gap-2
+                px-6 py-3
+                border border-cyan-400
+                text-cyan-400
+                rounded-md
+                hover:bg-cyan-400 hover:text-black
+                transition-all duration-300
+              "
+            >
+              Resume <HiOutlineDownload size={18} />
+            </a>
           </div>
         </div>
 

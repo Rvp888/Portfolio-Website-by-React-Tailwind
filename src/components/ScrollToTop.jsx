@@ -6,7 +6,7 @@ const ScrollToTop = () => {
 
   useEffect(() => {
     const handleScroll = () => {
-      // Height of Home section (adjust if needed)
+      // Height of Home section
       const homeHeight = window.innerHeight * 0.6;
 
       setVisible(window.scrollY > homeHeight);
