@@ -6,6 +6,9 @@ import weatherApp from "../assets/weather-app.png";
 import drawingApp from "../assets/Drawing App.png";
 import budgetApp from "../assets/Budget App.png";
 import ticTacToe from "../assets/Tic-Tac-Toe game.png";
+import wildOasis from "../assets/wild-oasis.png";
+import worldWise from "../assets/world-wise.png";
+import fastPizza from "../assets/fast-react-pizza.png";
 import calculator from "../assets/Calculator.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
@@ -64,6 +67,34 @@ const Portfolio = () => {
   const projects = [
     {
       id: 1,
+      title: "The Wild Oasis",
+      image: wildOasis,
+      description: "A hotel management app",
+      tech: ["React", "React Query", "Styled Components", "Supabase"],
+      live: "https://tic-tac-toe-by-js.vercel.app/",
+      github: "https://github.com/Rvp888/Tic-Tac-Toe-by-JS",
+    },
+    {
+      id: 2,
+      title: "WorldWise",
+      image: worldWise,
+      description:
+        "A world map that tracks your footsteps into every city you can think of. ",
+      tech: ["React", "React Router", "CSS"],
+      live: "https://ecom-site-six.vercel.app/",
+      github: "https://github.com/Rvp888/Ecom-site",
+    },
+    {
+      id: 3,
+      title: "Fast Pizza",
+      image: fastPizza,
+      description: "A pizza delivery app",
+      tech: ["React", "Redux", "React Router", "Tailwind CSS"],
+      live: "https://naga-khel-u6a7.vercel.app/",
+      github: "https://github.com/Rvp888/Naga-Khel",
+    },
+    {
+      id: 4,
       title: "Naga Khel",
       image: nagakhel,
       description:
@@ -71,26 +102,6 @@ const Portfolio = () => {
       tech: ["HTML", "CSS", "JavaScript"],
       live: "https://naga-khel-u6a7.vercel.app/",
       github: "https://github.com/Rvp888/Naga-Khel",
-    },
-    {
-      id: 2,
-      title: "E-Commerce App",
-      image: eCart,
-      description:
-        "A fully responsive e-commerce frontend with product listing and cart flow.",
-      tech: ["React", "CSS", "Bootstrap", "Firebase"],
-      live: "https://ecom-site-six.vercel.app/",
-      github: "https://github.com/Rvp888/Ecom-site",
-    },
-    {
-      id: 3,
-      title: "Tic Tac Toe",
-      image: ticTacToe,
-      description:
-        "Classic Tic Tac Toe game built using core JavaScript logic and clean UI.",
-      tech: ["HTML", "CSS", "JavaScript"],
-      live: "https://tic-tac-toe-by-js.vercel.app/",
-      github: "https://github.com/Rvp888/Tic-Tac-Toe-by-JS",
     },
   ];
 
