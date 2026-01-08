@@ -1,5 +1,6 @@
 import React from "react";
-import nagakhel from "../assets/naga-khel.png";
+// import nagakhel from "../assets/naga-khel.png";
+import nagakhel from "../assets/naga.png";
 import notesApp from "../assets/notes-app.png";
 import eCart from "../assets/E-Cart App.png";
 import weatherApp from "../assets/weather-app.png";
@@ -81,8 +82,8 @@ const Portfolio = () => {
       description:
         "A world map that tracks your footsteps into every city you can think of. ",
       tech: ["React", "React Router", "CSS"],
-      live: "https://ecom-site-six.vercel.app/",
-      github: "https://github.com/Rvp888/Ecom-site",
+      live: "https://world-wise-drab-eta.vercel.app/",
+      github: "https://github.com/Rvp888/World-Wise-by-React",
     },
     {
       id: 3,
@@ -90,8 +91,8 @@ const Portfolio = () => {
       image: fastPizza,
       description: "A pizza delivery app",
       tech: ["React", "Redux", "React Router", "Tailwind CSS"],
-      live: "https://naga-khel-u6a7.vercel.app/",
-      github: "https://github.com/Rvp888/Naga-Khel",
+      live: "https://fast-pizza-woad.vercel.app/",
+      github: "https://github.com/Rvp888/Fast-React-Pizza",
     },
     {
       id: 4,
@@ -114,7 +115,7 @@ const Portfolio = () => {
         {/* Heading */}
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Portfolio
+            Projects
           </p>
           <p className="py-6">Check out some of my work right here</p>
         </div>
