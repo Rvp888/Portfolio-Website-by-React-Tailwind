@@ -58,7 +58,7 @@ const Contact = () => {
   return (
     <div
       name="contact"
-      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black px-4 lg:px-16 text-white"
+      className="w-full min-h-screen bg-gradient-to-b from-gray-800 to-black px-4 md:px-16 text-white"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center h-full">
         {/* Header */}

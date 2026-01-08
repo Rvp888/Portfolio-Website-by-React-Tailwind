@@ -6,7 +6,7 @@ const Experience = () => {
   return (
     <div
       name="experience"
-      className="w-full bg-gradient-to-b from-black to-gray-800 text-white px-4 lg:px-16 min-h-[90vh] flex items-center"
+      className="w-full bg-gradient-to-b from-black to-gray-800 text-white px-4 md:px-16 min-h-[90vh] flex items-center"
     >
       <div className="max-w-screen-lg mx-auto p-4 flex flex-col justify-center w-full h-full">
         {/* Section Header */}
@@ -51,7 +51,7 @@ const Experience = () => {
           </div>
 
           {/* Responsibilities */}
-          <ul className="mt-4 list-disc list-inside space-y-2 text-gray-300 text-sm sm:text-base">
+          <ul className="mt-4 list-disc list-outside pl-5 space-y-2 text-gray-300 text-sm sm:text-base">
             <li>
               Developed and maintained responsive, pixel-perfect UI screens for
               a CRM-based SaaS platform using React.js and Tailwind CSS.

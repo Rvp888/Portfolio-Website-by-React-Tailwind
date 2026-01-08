@@ -1,9 +1,3 @@
-import React from "react";
-// import Profile from "../assets/profile-new.png";
-// import Profile from "../assets/profile-new-2.png";
-// import Profile from "../assets/profile-new-3.png";
-// import Profile from "../assets/profile.png";
-// import Profile from "../assets/profile-dev.png";
 import Profile from "../assets/profilepic.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { HiOutlineDownload } from "react-icons/hi";
@@ -13,7 +7,7 @@ const Home = () => {
   return (
     <div
       name="home"
-      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4 lg:px-16 flex items-center"
+      className="h-screen w-full bg-gradient-to-b from-black via-black to-gray-800 px-4 md:px-16 flex items-center"
     >
       <div className="max-w-screen-lg mx-auto flex flex-col gap-6 justify-center items-center h-full p-4 md:flex-row">
         <div className="flex flex-col justify-center h-full">
@@ -30,23 +24,6 @@ const Home = () => {
             products, I focus on turning complex requirements into intuitive,
             production-ready UIs.
           </p>
-
-          {/* <div className="mt-8">
-            <Link
-              to="portfolio"
-              smooth
-              duration={500}
-              className="group inline-flex items-center gap-2 px-7 py-3 rounded-md 
-              bg-gradient-to-r from-cyan-500 to-blue-600 text-white font-medium
-              hover:scale-105 hover:shadow-lg hover:shadow-cyan-500/30
-              transition-all duration-300 cursor-pointer"
-            >
-              View My Work
-              <span className="group-hover:translate-x-1 group-hover:rotate-90 transition-transform duration-300">
-                <MdOutlineKeyboardArrowRight size={22} />
-              </span>
-            </Link>
-          </div> */}
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto">
             {/* View Work */}
@@ -81,10 +58,10 @@ const Home = () => {
                 w-full sm:w-auto
                 flex items-center justify-center gap-2
                 px-6 py-3
-                border border-cyan-400
-                text-cyan-400
+                border border-cyan-500
+                text-cyan-500
                 rounded-md
-                hover:bg-cyan-400 hover:text-black
+                hover:bg-cyan-500/80 hover:text-black
                 hover:scale-105
                 transition-all duration-300
               "

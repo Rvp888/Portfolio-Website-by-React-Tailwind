@@ -4,7 +4,7 @@ const About = () => {
   return (
     <div
       name="about"
-      className="w-full bg-gradient-to-b from-gray-800 to-black text-white px-4 lg:px-16 min-h-[85vh] flex items-center"
+      className="w-full bg-gradient-to-b from-gray-800 to-black text-white px-4 md:px-16 min-h-[85vh] flex items-center"
     >
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full text-justify">
         <div>
@@ -14,7 +14,7 @@ const About = () => {
         </div>
 
         <p className="text-xl mt-10 ">
-          Frontend Developer with 2+ years of experience building responsive,
+          Frontend Developer with 2 years of experience building responsive,
           user-centric web interfaces using React and modern JavaScript.
         </p>
         <br />
