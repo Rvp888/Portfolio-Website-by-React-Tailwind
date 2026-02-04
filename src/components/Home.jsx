@@ -27,7 +27,7 @@ const Home = () => {
 
           <div className="flex flex-col sm:flex-row gap-4 mt-6 w-full sm:w-auto">
             {/* View Work */}
-            <Link to="portfolio" smooth duration={500}>
+            <Link to="projects" smooth duration={500}>
               <button
                 className="group
                   w-full sm:w-auto

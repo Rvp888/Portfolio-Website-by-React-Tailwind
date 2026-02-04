@@ -31,7 +31,7 @@ const Experience = () => {
             </span>
           </div>
 
-          <p className="mt-1 text-gray-500 font-medium">
+          <p className="mt-1 text-gray-400 font-medium">
             Vyakar Technologies Pvt. Ltd. · Bhilai, India
           </p>
 
