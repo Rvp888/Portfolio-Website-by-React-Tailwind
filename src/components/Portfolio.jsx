@@ -1,4 +1,3 @@
-import React from "react";
 // import nagakhel from "../assets/naga-khel.png";
 import nagakhel from "../assets/naga.png";
 import wildOasisWebsite from "../assets/wild-oasis.png";
