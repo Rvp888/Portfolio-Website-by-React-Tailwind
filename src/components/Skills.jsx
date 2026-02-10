@@ -1,4 +1,3 @@
-import React from "react";
 import html from "../assets/html.png";
 import css from "../assets/css.png";
 import javascript from "../assets/javascript.png";
@@ -11,14 +10,6 @@ import nextJS from "../assets/nextjs.png";
 import nodeJS from "../assets/node.png";
 import expressJS from "../assets/ExpressJS-Dark.svg";
 import mongodb from "../assets/mongodb.svg";
-import styledcomponents from "../assets/styledcomponents.svg";
-// import git from "../assets/git.png";
-// import supabase from "../assets/supabase.png";
-// import github from "../assets/github.png";
-// import jQuery from "../assets/jQuery.png";
-// import sass from "../assets/sass.png";
-// import expressJS from "../assets/exjs.png";
-// import mySQL from "../assets/mySql-1.svg";
 
 const Skills = () => {
   const techs = [
