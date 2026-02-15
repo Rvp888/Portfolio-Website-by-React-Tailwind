@@ -2,6 +2,7 @@
 import nagakhel from "../assets/naga.png";
 import wildOasisWebsite from "../assets/wild-oasis.png";
 import wildOasisApp from "../assets/wild-oasis-app.png";
+import kaamBridge from "../assets/kaamBridge.png";
 import worldWise from "../assets/world-wise.png";
 import fastPizza from "../assets/fast-react-pizza.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
@@ -12,7 +13,8 @@ const Portfolio = () => {
       id: 1,
       title: "The Wild Oasis Website",
       image: wildOasisWebsite,
-      description: "A hotel booking website",
+      description:
+        "A modern hotel booking platform with real-time availability and seamless reservations. Built with a scalable architecture and clean UI for a smooth user experience.",
       tech: ["Next JS", "Tailwind CSS", "Supabase"],
       live: "https://the-wild-oasis-new-website.vercel.app",
       github: "https://github.com/Rvp888/the-wild-oasis-website",
@@ -21,36 +23,48 @@ const Portfolio = () => {
       id: 2,
       title: "The Wild Oasis App",
       image: wildOasisApp,
-      description: "A hotel management app",
+      description:
+        "A full-featured hotel management dashboard for handling bookings, cabins, and guest data. Optimized for performance with efficient state management and secure backend integration.",
       tech: ["React", "React Query", "Styled Components", "Supabase"],
       live: "https://wild-oasis-retreat.vercel.app",
       github: "https://github.com/Rvp888/The-Wild-Oasis",
     },
     {
       id: 3,
+      title: "KaamBridge",
+      image: kaamBridge,
+      description:
+        "A responsive job portal platform connecting candidates with relevant opportunities. Includes job posting, filtering, and streamlined application workflows.",
+      tech: ["React", "React Router", "Tailwind CSS", "Supabase"],
+      live: "https://kaam-bridge.vercel.app",
+      github: "https://github.com/Rvp888/KaamBridge",
+    },
+    {
+      id: 4,
       title: "WorldWise",
       image: worldWise,
       description:
-        "A world map that tracks your footsteps into every city you can think of. ",
+        "An interactive world map app to track and visualize cities you've visited. Features location-based data storage with a clean, intuitive interface.",
       tech: ["React", "React Router", "CSS"],
       live: "https://world-wise-new.vercel.app",
       github: "https://github.com/Rvp888/World-Wise-by-React",
     },
     {
-      id: 4,
+      id: 5,
       title: "Fast Pizza",
       image: fastPizza,
-      description: "A pizza delivery app",
+      description:
+        "A dynamic pizza ordering app with cart management and real-time order updates. Built using Redux for scalable state management and smooth user flow.",
       tech: ["React", "Redux", "React Router", "Tailwind CSS"],
       live: "https://fast-pizza-world.vercel.app",
       github: "https://github.com/Rvp888/Fast-React-Pizza",
     },
     {
-      id: 5,
+      id: 6,
       title: "Naga Khel",
       image: nagakhel,
       description:
-        "An interactive gaming platform with modern UI and responsive design.",
+        "An interactive gaming platform showcasing responsive design and engaging UI elements. Built with core web technologies focusing on performance and clean animations.",
       tech: ["HTML", "CSS", "JavaScript"],
       live: "https://naga-khel.vercel.app",
       github: "https://github.com/Rvp888/Naga-Khel",
@@ -72,7 +86,7 @@ const Portfolio = () => {
         </div>
 
         {/* Grid */}
-        <div className="grid sm:grid-cols-2 lg:grid-cols-3 gap-8 px-12 sm:px-0">
+        <div className="grid sm:grid-cols-2 lg:grid-cols-2 gap-8 px-12 sm:px-0">
           {projects.map(
             ({ id, title, image, description, tech, live, github }) => (
               <div className="group rounded-xl overflow-hidden bg-gradient-to-b from-gray-900 to-gray-800 border border-gray-700 transition-all duration-300 hover:-translate-y-1 hover:shadow-xl hover:shadow-cyan-500/10">
