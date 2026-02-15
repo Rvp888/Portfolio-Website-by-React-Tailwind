@@ -64,7 +64,7 @@ const Portfolio = () => {
       title: "Naga Khel",
       image: nagakhel,
       description:
-        "An interactive gaming platform showcasing responsive design and engaging UI elements. Built with core web technologies focusing on performance and clean animations.",
+        "A classic single-player Snake game built with core web technologies. Features continuous game loop, collision detection, dynamic scoring, and high-score persistence via Local Storage, enhanced with background music and interactive sound effects.",
       tech: ["HTML", "CSS", "JavaScript"],
       live: "https://naga-khel.vercel.app",
       github: "https://github.com/Rvp888/Naga-Khel",
