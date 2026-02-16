@@ -3,8 +3,8 @@ import nagakhel from "../assets/naga.png";
 import wildOasisWebsite from "../assets/wild-oasis.png";
 import wildOasisApp from "../assets/wild-oasis-app.png";
 import kaamBridge from "../assets/kaamBridge-landing.png";
-import worldWise from "../assets/world-wise.png";
-import fastPizza from "../assets/fast-react-pizza.png";
+// import worldWise from "../assets/world-wise.png";
+// import fastPizza from "../assets/fast-react-pizza.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
 
 const Portfolio = () => {
