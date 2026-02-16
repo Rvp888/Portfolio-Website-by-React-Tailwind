@@ -2,7 +2,7 @@
 import nagakhel from "../assets/naga.png";
 import wildOasisWebsite from "../assets/wild-oasis.png";
 import wildOasisApp from "../assets/wild-oasis-app.png";
-import kaamBridge from "../assets/kaamBridge.png";
+import kaamBridge from "../assets/kaamBridge-landing.png";
 import worldWise from "../assets/world-wise.png";
 import fastPizza from "../assets/fast-react-pizza.png";
 import { FaGithub, FaExternalLinkAlt } from "react-icons/fa";
@@ -39,26 +39,26 @@ const Portfolio = () => {
       live: "https://kaam-bridge.vercel.app",
       github: "https://github.com/Rvp888/KaamBridge",
     },
-    {
-      id: 4,
-      title: "WorldWise",
-      image: worldWise,
-      description:
-        "An interactive world map app to track and visualize cities you've visited. Features location-based data storage with a clean, intuitive interface.",
-      tech: ["React", "React Router", "CSS"],
-      live: "https://world-wise-new.vercel.app",
-      github: "https://github.com/Rvp888/World-Wise-by-React",
-    },
-    {
-      id: 5,
-      title: "Fast Pizza",
-      image: fastPizza,
-      description:
-        "A dynamic pizza ordering app with cart management and real-time order updates. Built using Redux for scalable state management and smooth user flow.",
-      tech: ["React", "Redux", "React Router", "Tailwind CSS"],
-      live: "https://fast-pizza-world.vercel.app",
-      github: "https://github.com/Rvp888/Fast-React-Pizza",
-    },
+    // {
+    //   id: 4,
+    //   title: "WorldWise",
+    //   image: worldWise,
+    //   description:
+    //     "An interactive world map app to track and visualize cities you've visited. Features location-based data storage with a clean, intuitive interface.",
+    //   tech: ["React", "React Router", "CSS"],
+    //   live: "https://world-wise-new.vercel.app",
+    //   github: "https://github.com/Rvp888/World-Wise-by-React",
+    // },
+    // {
+    //   id: 5,
+    //   title: "Fast Pizza",
+    //   image: fastPizza,
+    //   description:
+    //     "A dynamic pizza ordering app with cart management and real-time order updates. Built using Redux for scalable state management and smooth user flow.",
+    //   tech: ["React", "Redux", "React Router", "Tailwind CSS"],
+    //   live: "https://fast-pizza-world.vercel.app",
+    //   github: "https://github.com/Rvp888/Fast-React-Pizza",
+    // },
     {
       id: 6,
       title: "Naga Khel",
