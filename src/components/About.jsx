@@ -95,26 +95,38 @@ const About = () => {
       name="about"
       id="about"
       className="
-        relative isolate overflow-hidden
-        min-h-screen
-        bg-gradient-to-b from-gray-800 to-black
-        px-6
-        pt-10 pb-20
-        md:px-12
-        md:pt-10 md:pb-24
-        lg:px-16
-        lg:pt-10 lg:pb-28
-        text-white
-      "
+    hero-section
+    relative isolate overflow-hidden
+    min-h-screen w-full
+    bg-gradient-to-b from-black via-black to-gray-900
+    px-6
+    pt-10 pb-20
+    md:px-12
+    md:pt-10 md:pb-24
+    lg:px-16
+    lg:pt-10 lg:pb-28
+    text-white
+  "
     >
-      {/* Background Ambient Glow */}
+      {/* Background Effects - Matching Hero Section */}
+
+      {/* Cyan Glow - Left */}
+      <div className="hero-glow hero-glow-one" />
+
+      {/* Blue Glow - Right */}
+      <div className="hero-glow hero-glow-two" />
+
+      {/* Grid Overlay */}
+      <div className="hero-grid" />
+
+      {/* Additional Ambient Glow */}
       <div
         className="
-      pointer-events-none absolute
-      -left-40 top-1/3 -z-10
-      h-96 w-96 rounded-full
-      bg-cyan-500/[0.06] blur-[120px]
-    "
+    pointer-events-none absolute
+    -left-40 top-1/3 -z-10
+    h-96 w-96 rounded-full
+    bg-cyan-500/[0.06] blur-[120px]
+  "
       />
 
       <div
