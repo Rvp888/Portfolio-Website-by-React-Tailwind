@@ -63,61 +63,6 @@ const highlights = [
   },
 ];
 
-// const highlights = [
-//   {
-//     number: "01",
-//     icon: "</>",
-//     title: "React Development",
-//     description: "Building scalable and maintainable frontend applications.",
-//   },
-//   {
-//     number: "02",
-//     icon: "▱",
-//     title: "UI Development",
-//     description: "Creating responsive and accessible user interfaces.",
-//   },
-//   {
-//     number: "03",
-//     icon: "▦",
-//     title: "SaaS Applications",
-//     description: "Developing intuitive interfaces for business workflows.",
-//   },
-//   {
-//     number: "04",
-//     icon: "ϟ",
-//     title: "Performance",
-//     description: "Improving speed, usability, and overall user experience.",
-//   },
-//   {
-//     number: "05",
-//     icon: "⌘",
-//     title: "State Management",
-//     description:
-//       "Managing application state with Redux Toolkit and React Query.",
-//   },
-//   {
-//     number: "06",
-//     icon: "✓",
-//     title: "Code Quality",
-//     description: "Writing clean, reusable, and well-structured code.",
-//   },
-// ];
-
-const headingVariants = {
-  hidden: {
-    opacity: 0,
-    y: 20,
-  },
-  visible: {
-    opacity: 1,
-    y: 0,
-    transition: {
-      duration: 0.5,
-      ease: "easeOut",
-    },
-  },
-};
-
 const containerVariants = {
   hidden: {},
   visible: {
@@ -144,13 +89,6 @@ const itemVariants = {
 
 const About = () => {
   const shouldReduceMotion = useReducedMotion();
-
-  const revealVariants = shouldReduceMotion
-    ? {
-        hidden: { opacity: 1 },
-        visible: { opacity: 1 },
-      }
-    : itemVariants;
 
   return (
     <section
