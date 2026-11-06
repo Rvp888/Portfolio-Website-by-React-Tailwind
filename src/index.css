@@ -213,3 +213,45 @@
   background-size: 55px 55px;
   mask-image: linear-gradient(to bottom, black, transparent 90%);
 }
+
+/* Subtle breathing glow for skill cards */
+@keyframes skillGlow {
+  0%,
+  100% {
+    box-shadow: 0 0 12px rgba(34, 211, 238, 0.04);
+    border-color: rgba(6, 182, 212, 0.15);
+  }
+
+  50% {
+    box-shadow: 0 0 20px rgba(34, 211, 238, 0.12);
+    border-color: rgba(6, 182, 212, 0.35);
+  }
+}
+
+/* Gentle floating movement for skill icons */
+@keyframes skillFloat {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+
+  50% {
+    transform: translateY(-4px);
+  }
+}
+
+.animate-skill-glow {
+  animation: skillGlow 4s ease-in-out infinite;
+}
+
+.animate-skill-float {
+  animation: skillFloat 3s ease-in-out infinite;
+}
+
+/* Respect reduced-motion preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-skill-glow,
+  .animate-skill-float {
+    animation: none;
+  }
+}

@@ -234,7 +234,7 @@ const Portfolio = () => {
           {/* Gradient Underline */}
           <div className="mt-2 h-1 w-20 rounded-full bg-gradient-to-r from-cyan-400 to-blue-500" />
 
-          <p className="mt-4 max-w-2xl text-lg leading-relaxed">
+          <p className="mt-4 max-w-2xl text-sm sm:text-base leading-relaxed text-gray-400">
             Check out some of my work right here
           </p>
         </div>
