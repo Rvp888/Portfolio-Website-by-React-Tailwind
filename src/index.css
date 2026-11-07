@@ -255,3 +255,28 @@
     animation: none;
   }
 }
+
+/* Subtle animated glow */
+@keyframes scrollGlow {
+  0%,
+  100% {
+    opacity: 0.45;
+    transform: scale(0.95);
+  }
+
+  50% {
+    opacity: 0.9;
+    transform: scale(1.08);
+  }
+}
+
+.animate-scroll-glow {
+  animation: scrollGlow 3s ease-in-out infinite;
+}
+
+/* Respect accessibility preferences */
+@media (prefers-reduced-motion: reduce) {
+  .animate-scroll-glow {
+    animation: none;
+  }
+}
