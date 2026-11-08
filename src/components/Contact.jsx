@@ -110,7 +110,7 @@ const Contact = () => {
   return (
     <section
       name="contact"
-      className="w-full min-h-screen bg-gradient-to-b from-black to-gray-800 px-4 md:px-16 pt-6 pb-8 text-white"
+      className="w-full min-h-[90vh] bg-gradient-to-b from-black to-gray-800 px-4 md:px-16 pt-5 pb-10 text-white"
     >
       <div className="max-w-[1140px] mx-auto flex flex-col items-center justify-center min-h-[calc(100vh-8rem)]">
         {/* Section Heading */}
