@@ -280,3 +280,26 @@
     animation: none;
   }
 }
+
+/* Contact form animation */
+
+@keyframes contactEnter {
+  from {
+    opacity: 0;
+    transform: translateY(18px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-contact-enter {
+  animation: contactEnter 0.8s ease-out both;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .animate-contact-enter {
+    animation: none;
+  }
+}
