@@ -147,7 +147,7 @@ const NavBar = () => {
             smooth
             duration={500}
             spy
-            offset={-80}
+            offset={-88}
             onClick={closeMenu}
             className="group cursor-pointer"
           >
@@ -170,7 +170,7 @@ const NavBar = () => {
                   smooth
                   duration={500}
                   spy
-                  offset={-90}
+                  offset={-88}
                   activeClass="nav-active"
                   className="
                     nav-link
@@ -260,7 +260,7 @@ const NavBar = () => {
                 smooth
                 duration={500}
                 spy
-                offset={-80}
+                offset={-88}
                 onClick={closeMenu}
                 activeClass="nav-active"
                 className="group flex items-center

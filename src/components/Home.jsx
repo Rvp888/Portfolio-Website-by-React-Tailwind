@@ -131,7 +131,7 @@ const Home = () => {
             sm:w-auto sm:flex-row"
           >
             {/* View Projects */}
-            <Link to="projects" smooth duration={500}>
+            <Link to="projects" smooth duration={500} offset={-88}>
               <motion.button
                 type="button"
                 whileHover={
