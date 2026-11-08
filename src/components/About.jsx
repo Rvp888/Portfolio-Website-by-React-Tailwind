@@ -209,7 +209,7 @@ const About = () => {
             sm:text-xl
           "
             >
-              I'm a React-focused Frontend Developer with 2+ years of
+              I'm a React-focused Frontend Developer with 3+ years of
               professional experience building responsive, user-centric web
               applications.
             </motion.p>
@@ -222,9 +222,9 @@ const About = () => {
             text-gray-400 sm:text-base
           "
             >
-              I specialize in React, JavaScript, and component-based UI
-              development. At LeadAngel, I worked on enterprise SaaS interfaces,
-              translating complex business requirements into intuitive user
+              I specialize in React, Next.js, JavaScript, and modern frontend
+              technologies, with a strong focus on developing interactive
+              interfaces and translating complex requirements into seamless user
               experiences.
             </motion.p>
 
@@ -236,9 +236,11 @@ const About = () => {
             text-gray-400 sm:text-base
           "
             >
-              I focus on reusable components, maintainable code, responsive
-              design, and frontend performance while continuously strengthening
-              my understanding of modern frontend architecture.
+              I enjoy building reusable components, writing clean and
+              maintainable code, optimizing application performance, and
+              creating consistent experiences across devices. I'm continuously
+              exploring modern tools and best practices to strengthen my
+              frontend development skills.
             </motion.p>
 
             {/* Technology Tags */}
