@@ -445,12 +445,22 @@ const Home = () => {
           <motion.p
             variants={itemVariants}
             className="mt-4 max-w-xl text-base leading-8
-            text-gray-400 sm:mt-7 sm:text-lg"
+            text-gray-400 sm:mt-7 sm:text-lg hidden sm:block"
           >
             I build responsive, scalable and user-focused web applications using
             React and modern frontend technologies. Experienced in developing
             enterprise SaaS interfaces and transforming complex requirements
             into intuitive user experiences.
+          </motion.p>
+
+          {/* Description */}
+          <motion.p
+            variants={itemVariants}
+            className="mt-4 max-w-xl text-base leading-8
+            text-gray-400 sm:mt-7 sm:text-lg sm:hidden"
+          >
+            I build responsive, scalable and user-focused web applications using
+            React and modern frontend technologies.
           </motion.p>
 
           {/* Professional Status */}
