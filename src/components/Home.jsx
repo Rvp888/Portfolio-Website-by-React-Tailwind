@@ -395,19 +395,9 @@ const Home = () => {
           <motion.h1
             variants={itemVariants}
             className="text-4xl font-extrabold leading-[1.15]
-            tracking-tight text-white sm:text-5xl
-            lg:text-7xl"
+            tracking-tight text-white sm:text-5xl lg:text-7xl"
           >
-            Frontend
-            <br />
-            <span
-              className="inline-block min-h-[1.15em]
-              bg-gradient-to-r from-cyan-400
-              via-sky-400 to-blue-500
-              bg-clip-text text-transparent"
-            >
-              <Typewriter />
-            </span>
+            <Typewriter />
           </motion.h1>
 
           {/* Mobile Profile Image */}
