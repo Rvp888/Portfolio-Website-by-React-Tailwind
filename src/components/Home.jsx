@@ -384,10 +384,10 @@ const Home = () => {
             <span className="h-[2px] w-8 bg-cyan-400" />
 
             <span
-              className="text-xs font-semibold tracking-[0.22em]
-              text-cyan-400 sm:text-sm"
+              className="text-xs font-semibold tracking-[0.18em]
+            text-cyan-400 sm:text-sm"
             >
-              FRONTEND DEVELOPER · REACT.JS
+              REACT · TYPESCRIPT · MODERN WEB
             </span>
           </motion.div>
 
