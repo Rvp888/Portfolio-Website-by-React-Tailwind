@@ -318,6 +318,7 @@ import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { HiOutlineDownload } from "react-icons/hi";
 import { Link } from "react-scroll";
 import { motion, useReducedMotion } from "framer-motion";
+import Typewriter from "./Typewriter";
 
 const Home = () => {
   const shouldReduceMotion = useReducedMotion();
@@ -400,10 +401,12 @@ const Home = () => {
             Frontend
             <br />
             <span
-              className="bg-gradient-to-r from-cyan-400
-              via-sky-400 to-blue-500 bg-clip-text text-transparent"
+              className="inline-block min-h-[1.15em]
+              bg-gradient-to-r from-cyan-400
+              via-sky-400 to-blue-500
+              bg-clip-text text-transparent"
             >
-              Developer
+              <Typewriter />
             </span>
           </motion.h1>
 
